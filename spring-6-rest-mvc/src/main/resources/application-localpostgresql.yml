@@ -1,0 +1,55 @@
+logging:
+    level:
+        org:
+            hibernate:
+                orm:
+                    jdbc:
+                        bind: trace
+spring:
+    datasource:
+        driver-class-name: org.postgresql.Driver
+        hikari:
+            data-source-properties:
+                cachePrepStmts: true
+                customercachePrepStmts: true
+                customercacheResultSetMetadata: true
+                customercacheServerConfiguration: true
+                customerelideSetAutoCommits: true
+                customermaintainTimeStats: false
+                customerprepStmtCacheSize: 250
+                customerprepStmtCacheSqlLimit: 2048
+                customerrewriteBatchedStatements: true
+                customeruseLocalSessionState: true
+                customeruseServerPrepStmts: true
+            maximum-pool-size: 5
+            pool-name: RestDB-Pool
+        password: postgres
+        url: jdbc:postgresql://localhost:5432/restdb
+        username: postgres
+    flyway:
+        enabled: true
+        url: jdbc:postgresql://localhost:5432/restdb
+        user: postgres
+        password: postgres
+        baseline-on-migrate: true
+    jpa:
+        database: postgresql
+        database-platform: org.hibernate.dialect.PostgreSQLDialect
+        hibernate:
+            ddl-auto: validate
+        properties:
+            hibernate:
+                format_sql: true
+                show_sql: true
+#            jakarta:
+#                persistence:
+#                    schema-generation:
+#                        scripts:
+#                            action: drop-and-create
+#                            create-source: metadata
+#                            drop-target: drop-and-create.sql
+#                            create-target: drop-and-create.sql
+    security:
+        user:
+            name: user1
+            password: password

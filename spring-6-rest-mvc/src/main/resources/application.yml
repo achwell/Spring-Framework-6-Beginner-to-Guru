@@ -1,0 +1,16 @@
+spring:
+    datasource:
+        driverClassName: org.h2.Driver
+        password: password
+        url: jdbc:h2:mem:mydb
+        username: sa
+    flyway:
+        enabled: false
+    jpa:
+        database-platform: org.hibernate.dialect.H2Dialect
+    security:
+        oauth2:
+            resourceserver:
+              jwt:
+                  issuer-uri: http://localhost:9000
+

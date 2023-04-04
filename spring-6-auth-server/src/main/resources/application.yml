@@ -1,0 +1,14 @@
+logging:
+  level:
+    guru:
+      springframework: debug
+spring:
+  datasource:
+    driverClassName: org.h2.Driver
+    password: password
+    url: jdbc:h2:mem:mydb
+    username: sa
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+server:
+  port: 9000

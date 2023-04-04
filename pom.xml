@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>guru.springframework</groupId>
+    <artifactId>spring-6-webapp-parent</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>spring-6-webapp-parent</name>
+    <packaging>pom</packaging>
+    <modules>
+        <module>spring-6-webapp</module>
+        <module>spring-6-di</module>
+        <module>spring-6-rest-mvc</module>
+        <module>sdjpa-spring-data-rest</module>
+        <module>spring-6-resttemplate</module>
+        <module>spring-6-reactive-examples</module>
+        <module>spring-6-reactive</module>
+        <module>spring-6-auth-server</module>
+    </modules>
+</project>
