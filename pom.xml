@@ -16,5 +16,6 @@
         <module>spring-6-reactive-examples</module>
         <module>spring-6-reactive</module>
         <module>spring-6-auth-server</module>
+        <module>reactive-mongo</module>
     </modules>
 </project>
