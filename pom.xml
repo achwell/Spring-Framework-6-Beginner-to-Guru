@@ -17,5 +17,6 @@
         <module>spring-6-reactive</module>
         <module>spring-6-auth-server</module>
         <module>reactive-mongo</module>
+        <module>spring-6-webclient</module>
     </modules>
 </project>
