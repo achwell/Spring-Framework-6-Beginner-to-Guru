@@ -19,5 +19,6 @@
         <module>reactive-mongo</module>
         <module>spring-6-webclient</module>
         <module>spring-6-gateway</module>
+        <module>kbe-rest-brewery</module>
     </modules>
 </project>
