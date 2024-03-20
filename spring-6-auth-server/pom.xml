@@ -15,7 +15,7 @@
 	<description>spring-6-auth-server</description>
 	<properties>
 		<java.version>17</java.version>
-		<spring-security-oauth2-authorization-server.version>1.0.1</spring-security-oauth2-authorization-server.version>
+		<spring-security-oauth2-authorization-server.version>1.1.6</spring-security-oauth2-authorization-server.version>
 	</properties>
 	<dependencies>
 		<dependency>
